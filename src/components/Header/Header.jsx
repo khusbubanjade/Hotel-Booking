@@ -24,32 +24,32 @@ function Header(){
                     <div className={`${headerCSS.Header_slide} ${headerCSS.slide1}`}>
                         <div className={headerCSS.content}>
                             <small data-swiper-parallax="-200">Luxury Hotel and Restaurant</small>
-                            <h2 data-swiper-parallax="-300">Enjoy Your <span>Dream</span> Time with <br />
+                            <h2 data-swiper-parallax="-400">Enjoy Your <span>Dream</span> Time with <br />
                                 <span>Luxury</span> Experience 
                             </h2>
-                            <p data-swiper-parallax="-400">Call Now <span>9741875364</span></p>
+                            <p data-swiper-parallax="-600">Call Now <span>9741875364</span></p>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={`${headerCSS.Header_slide} ${headerCSS.slide2}`}>
                         <div className={headerCSS.content}>
-                            <small data-swiper-parallax="200">Luxury Hotel and Restaurant</small>
-                            <h2 data-swiper-parallax="300">Enjoy Your <span>Dream</span> Time with <br />
+                            <small data-swiper-parallax="-200">Luxury Hotel and Restaurant</small>
+                            <h2 data-swiper-parallax="-400">Enjoy Your <span>Dream</span> Time with <br />
                                 <span>Luxury</span> Experience 
                             </h2>
-                            <p data-swiper-parallax="400">Call Now <span>9741875364</span></p>
+                            <p data-swiper-parallax="-600">Call Now <span>9741875364</span></p>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={`${headerCSS.Header_slide} ${headerCSS.slide3}`}>
                         <div className={headerCSS.content}>
-                            <small data-swiper-parallax="200">Luxury Hotel and Restaurant</small>
-                            <h2 data-swiper-parallax="300">Enjoy Your <span>Dream</span> Time with <br />
+                            <small data-swiper-parallax="-200">Luxury Hotel and Restaurant</small>
+                            <h2 data-swiper-parallax="-400">Enjoy Your <span>Dream</span> Time with <br />
                                 <span>Luxury</span> Experience 
                             </h2>
-                            <p data-swiper-parallax="400">Call Now <span>9741875364</span></p>
+                            <p data-swiper-parallax="-600">Call Now <span>9741875364</span></p>
                         </div>
                     </div>
                 </SwiperSlide>
