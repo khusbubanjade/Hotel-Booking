@@ -41,20 +41,21 @@
 .nav_wrapper ul li::after{
     position: absolute;
     content: '';
-    top: 0;
+    top: 10;
     left: -10%;
     transform: translateX(-50%);
     height: 5px;
     background-color: #fff;
     width: 5px;
     border-radius: 50%;
-    background-color: #df8033;
     transition: .2s;
 }
 
 .nav_wrapper ul li:hover:after{
     background-color: #df8033;
+
 }
+
 
 .nav_btns{
     display: flex;
@@ -63,7 +64,6 @@
 }
 
 .nav_wrapper ul li a{
-    /* for bg dark use this a white #fff */
     color: #fff;
     font-weight: 500;
     font-family: 'poppins';
@@ -111,6 +111,12 @@
         border-bottom: 1px solid #fff;
         transition: .6s;
     }
+
+    .nav_wrapper ul li:hover:after{
+        left: 10%;
+        top: 35px;
+    }
+
     .nav_wrapper .showNav{
         left: 0;
     }
