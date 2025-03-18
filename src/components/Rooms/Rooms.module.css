@@ -1,0 +1,48 @@
+.card_container{
+    perspective: 1000px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    width: 100%;
+    height: 320px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: .6s;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.card_front, .card_Back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.card_front{
+    background: url(./../../assets/1.jpg);
+    justify-content: end;
+}
+
+.card_front button{
+    width: 100%;
+}
+
+.card_Back{
+    background: url(./../../assets/1.jpg);
+    transform: rotateY(180deg);
+}
