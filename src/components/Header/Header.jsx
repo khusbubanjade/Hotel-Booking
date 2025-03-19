@@ -14,7 +14,7 @@ function Header(){
                 loop={true}
                 className={headerCSS.swiper}
                 autoplay={{
-                    delay: 25000,
+                    delay: 2000,
                 }}
                 parallax={true}
                 speed={1500}
@@ -27,7 +27,7 @@ function Header(){
                             <h2 data-swiper-parallax="-400">Enjoy Your <span>Dream</span> Time with <br />
                                 <span>Luxury</span> Experience 
                             </h2>
-                            <p data-swiper-parallax="-600">Call Now <span>9741875364</span></p>
+                            <p data-swiper-parallax="-600">Call Now <span>9741875366</span></p>
                         </div>
                     </div>
                 </SwiperSlide>
